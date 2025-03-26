@@ -1,0 +1,19 @@
+html {
+  background-color: #151320;
+}
+
+h1 {
+  background: -webkit-linear-gradient(left, purple, blue);
+  background: linear-gradient(purple, blue);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+body {
+  color: white;
+}
+
+table {
+  background: linear-gradient(rgb(170, 0, 170), rgb(0, 0, 113));
+}

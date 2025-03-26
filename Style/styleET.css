@@ -1,0 +1,19 @@
+html {
+  background-color: #151320;
+}
+
+h1 {
+  background: -webkit-linear-gradient(left, rgb(219, 182, 88), brown);
+  background: linear-gradient(right, rgb(220, 182, 88), brown);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+body {
+  color: white;
+}
+
+table {
+  background: linear-gradient(rgb(207, 164, 58), brown);
+}

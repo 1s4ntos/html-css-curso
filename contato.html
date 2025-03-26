@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="description" content="HTML" />
+        <meta name="keywords" content="tecnologias, análise, sistemas, ciência, computação, script, css, html, javascript" />
+        <link rel="stylesheet" type="text/css" href="Style/stylecont.css" />    
+        <title>Projeto Web</title>
+    </head>
+    
+    <body>
+<!-- Conteúdo para Cabeçalho e Navegação -->    
+        <header>
+          <h1><center>Aplicações para Internet</center></h1>
+          <hr>    
+          <h2><center>Formulário para Contato</center></h2>
+        </header>
+
+<!-- Conteúdo Principal -->
+        <main>
+
+
+          <form name="Cadastro" action="/submit" method="post">
+            <table border="1" width="100%" cellspacing="5">
+              <tr>
+                <td>
+                  <label for="f_nome">Nome:</label></br>
+                  <input type="text" id="f_nome" name="f_nome" placeholder="digite o nome completo"/>
+
+                </td>
+                <td>
+                  <label for="f_ende">Endereço:</label></br>
+                  <input type="text" id="f_ende" name="f_ende" placeholder="digite o endereço completo"/>
+
+                </td>
+
+
+              </tr>
+            <tr>
+              <td>
+               <label for="f_email">E-mail:</label></br>
+                <input type="email" id="f_email" name="f_email" placeholder="digite um E-mail valido"/>
+
+              </td>
+              <td>
+                <label for="f_fone">Telefone:</label></br>
+                <input type="tel" id="f_fone" name="f_fone" placeholder=""/>
+
+              </td>
+              <tr>
+                <td>
+                 
+                 <label for="f_curso">CURSO</label>
+                 <select id="f_curso" name="f_curso">
+                    <option value="..." selected></option>
+                    <option value="CC">Ciencia da computação</option>
+                    <option value="ADS">Análise e Desenvolvimento de Sistemas</option>
+                    <option value="SI">Sistema da Informação</option>
+                 </select>
+
+                </td>
+
+                <td>
+                    <label for="f_turno"> Turno</label></br>
+                 <input type="radio" name="f_turno" id="f_turno" value="Matutino" required />Matutino<br />
+                <input type="radio" name="f_turno" id="f_turno" value="Vespertino" required />Vespertino<br />
+                <input type="radio" name="f_turno" id="f_turno" value="Noturno" required />Noturno<br />                            
+                </td>
+                <tr>
+                    <td>
+                      Enviar Arquivo</br>
+                      <input type="file" name="Escolha Arquivo"  />
+                        
+                        
+
+                    </td>
+
+                    <td>
+                        Mensagem</br>
+                        <textarea></textarea>
+
+
+
+                    </td>
+
+
+
+
+                </tr>
+                <tr>
+    
+                    <td colspan="2">
+                      <input type="checkbox">Declaro que as informações cadastradas são verdadeiras e da minha responsabilidade de acordo com os termos legais. </br>
+                    </td>
+
+
+
+                </tr>
+
+
+
+              </tr>
+
+
+
+            </tr>
+
+            </table> 
+            <input type="submit" value="Enviar"> &nbsp;
+            <input type="reset" value="Limpar">
+
+
+
+            <p>
+                <center><a href="index.html">Voltar</a></center>
+              </p>
+            
+          </form>
+        </main>
+
+<!-- Conteúdo para Rodapé -->
+        <footer>
+          <hr>
+          <center>&copy;2024 - Desenvolvido por Ryan Santos</center>
+        </footer>
+
+    </body>
